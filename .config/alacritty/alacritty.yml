@@ -1,0 +1,7 @@
+font:
+    size: 8.0
+
+colors:
+  # Default colors
+  primary:
+    background: '#2A2D3E'
