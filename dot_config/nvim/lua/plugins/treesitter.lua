@@ -8,7 +8,6 @@ return {
       additional_vim_regex_highlighting = false,
       enable = true,
       ensure_installed = {
-        "astro",
         "bash",
         "cpp",
         "c",
@@ -22,22 +21,15 @@ return {
         "jsonc",
         "lua",
         "markdown",
-        "php",
         "python",
-        "ruby",
         "rust",
-        "scss",
-        "sql",
-        "toml",
-        "tsx",
         "yaml",
-        "typescript",
       },
-      ignore_install = { "phpdoc" },
+      ignore_install = {},
       highlight = { enable = true },
       indent = { enable = true },
       autotag = { enable = true },
     })
-
   end
 }
+
